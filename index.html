@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kai Sun</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="home">
+    <div class="buttons">
+      <button type="button" class="btn btn-outline-light homeButton">Home</button>
+      <button type="button" class="btn btn-outline-light aboutButton">About</button>
+      <button type="button" class="btn btn-outline-light resumeButton">Resume</button>
+      <button type="button" class="btn btn-outline-light projectsButton">Projects</button>
+    </div>
+
+    <div class="bottom">
+      <h6 class="bottomSection footer"></h6>
+      <h6 class="bottomSection">|</h6>
+      <a href="https://github.com/KaiSun314" target="_blank">
+        <img class="github" src="images/github.png" alt="github">
+      </a>
+      <a href="https://www.linkedin.com/in/kaisun314/" target="_blank">
+        <img class="linkedin" src="images/linkedin.png" alt="linkedin">
+      </a>
+    </div>
+  </div>
+
+  <div class="about">
+    <div class="buttons">
+      <button type="button" class="btn btn-outline-dark homeButton">Home</button>
+      <button type="button" class="btn btn-outline-dark aboutButton">About</button>
+      <button type="button" class="btn btn-outline-dark resumeButton">Resume</button>
+      <button type="button" class="btn btn-outline-dark projectsButton">Projects</button>
+    </div>
+    <div id="aboutCardWrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-5 col-lg-4 col-md-2 col-xs-0">
+          </div>
+          <div class="col-xl-7 col-lg-8 col-md-10 col-xs-12">
+            <div class="card" id="aboutCard">
+              <div class="card-body">
+                <h1 class="card-title">About me</h1>
+                <p class="card-text">
+                  <h5>Hi, I'm Kai. I am a 2nd year CS student at the University of Waterloo. I am interested in deep learning, competitive programming, as well as backend and mobile development.</h5>
+                </p>
+                <p class="card-text">
+                  <h5>I have a competitive programming and math background, where I achieved a Silver Medal at the International Mathematical Olympiad in 2016, and represented Waterloo in the ACM ICPC competition in 2018. I have also worked at BlackBerry on the Android development team in 2019, where I implemented draft syncing, which launched to over 1,000,000 users. Lastly, I am the recipient of both the Michael and Ophelia Lazaridis Olympiad Scholarship, a full-ride scholarship given to four Waterloo students each year, as well as the Wish Scholarship in 2019, an award given to the top student in computer science in 1B.</h5> 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <h6 class="bottomSection footer"></h6>
+      <h6 class="bottomSection">|</h6>
+      <a href="https://github.com/KaiSun314" target="_blank">
+        <img class="github" src="images/github.png" alt="github">
+      </a>
+      <a href="https://www.linkedin.com/in/kaisun314/" target="_blank">
+        <img class="linkedin" src="images/linkedin.png" alt="linkedin">
+      </a>
+    </div>
+  </div>
+
+  <div class="projects">
+    <div class="buttons">
+      <button type="button" class="btn btn-outline-dark homeButton">Home</button>
+      <button type="button" class="btn btn-outline-dark aboutButton">About</button>
+      <button type="button" class="btn btn-outline-dark resumeButton">Resume</button>
+      <button type="button" class="btn btn-outline-dark projectsButton">Projects</button>
+    </div>
+    <div class="projectsList row row-cols-1 row-cols-lg-3 row-cols-md-2">
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img id="chatForClass" src="images/chatForClass.png" class="card-img-top" alt="Chat for Class">
+          <div class="card-body">
+            <h5 class="card-title">Chat for Class</h5>
+            <p class="card-text">A messaging app for schools that allows students and teachers to branch new conversations from the current one, for a more organized and efficient method of communication.</p>
+            <p class="card-text">Built with Node.js, Express, MongoDB, AWS S3, Redis, Socket.IO, and React.js.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img id="routePlanner" src="images/routePlanner.png" class="card-img-top" alt="Route Planner">
+          <div class="card-body">
+            <h5 class="card-title">Route Planner</h5>
+            <p class="card-text">Finds the shortest route visiting a list of up to 10 places, specified by exact address or a place name. Used Bitmask Dynamic Programming, Breadth First Search, Google Maps Places API, Directions API, and Distance Matrix API.</p>
+            <p class="card-text">Built with Java, XML, SQLite, and Android Studio.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="images/vm.png" class="card-img-top" alt="VM">
+          <div class="card-body">
+            <h5 class="card-title">VM</h5>
+            <p class="card-text">Vim-like text editor. Implemented a Splay (Self-Balancing Binary Search) Tree to optimize text insertion and deletion time. Designed the architecture using object-oriented principles and the Model-View-Controller framework.</p>
+            <p class="card-text">Built with C++.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img id="findAndSearch" src="images/findAndSearch.png" class="card-img-top" alt="Find and Search">
+          <div class="card-body">
+            <h5 class="card-title">Find and Search</h5>
+            <p class="card-text">An Android app that makes finding and searching text in photos simple, convenient, and fast.</p>
+            <p class="card-text">Built with Java, XML, and Android Studio.</p>
+            <a href='https://play.google.com/store/apps/details?id=com.SunDragon.FindandSearch&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank">
+              <img class="googlePlay" alt='Get it on Google Play' src='images/google-play-badge.png' />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottomProject">
+      <h6 class="bottomSection footer"></h6>
+      <h6 class="bottomSection">|</h6>
+      <a href="https://github.com/KaiSun314" target="_blank">
+        <img class="github" src="images/github.png" alt="github">
+      </a>
+      <a href="https://www.linkedin.com/in/kaisun314/" target="_blank">
+        <img class="linkedin" src="images/linkedin.png" alt="linkedin">
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="js/click.js"></script>
+</body>
+
+</html>
