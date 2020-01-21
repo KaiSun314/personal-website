@@ -2,10 +2,21 @@
 body {
   margin: 0;
   text-align: center;
+  overflow: hidden;
 }
 
 body, html {
   height: 100%;
+}
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
 }
 
 h1 {
@@ -61,6 +72,12 @@ h3 {
   text-align: center;
 }
 
+.bottomAbout {
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
 .bottomProject {
   margin-bottom: 20px;
   width: 100%;
@@ -76,6 +93,7 @@ h3 {
   background-size: cover;
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .projects {
@@ -132,6 +150,10 @@ h3 {
   padding: 10px;
 }
 
+.row {
+  overflow-y: scroll;
+}
+
 /*************************ID SELECTORS*************************/
 
 #aboutCardWrapper {
@@ -139,9 +161,12 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 20px;
+  overflow-y: scroll;
 }
 
 #aboutCard {
+  position: relative;
   width: 600px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
   transition: 0.3s;
