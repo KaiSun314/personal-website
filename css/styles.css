@@ -2,7 +2,6 @@
 body {
   margin: 0;
   text-align: center;
-  overflow: hidden;
 }
 
 body, html {
@@ -157,7 +156,8 @@ h3 {
   flex-direction: column;
   justify-content: center;
   margin: 20px;
-  overflow-y: scroll;
+  margin-top: 0px;
+  overflow-x: hidden;
 }
 
 #aboutCard {
@@ -167,6 +167,7 @@ h3 {
   transition: 0.3s;
   margin: auto;
   opacity: 80%;
+  overflow-x: hidden;
 }
 
 @media (max-width: 700px) {
