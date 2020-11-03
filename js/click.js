@@ -23,7 +23,7 @@ $('.aboutButton').click(event => {
 });
 
 $('.resumeButton').click(event => {
-    window.open('Kai_Sun_Resume.pdf');
+    window.open('resume.pdf');
 });
 
 $('.projectsButton').click(event => {
