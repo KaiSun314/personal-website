@@ -104,7 +104,7 @@ h3 {
 }
 
 .card-body {
-  text-align: center;
+  text-align: left;
 }
 
 @media (min-width: 576px) {
